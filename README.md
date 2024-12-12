@@ -1,6 +1,6 @@
 # Favorites Movie Backend
 
-A simple backend API for managing favorite movies, built with .NET 8 Minimal API, SQLite, Entity Framework Core, and TMDB API.
+A simple backend API for managing favorite movies, built with .NET 8 Minimal API, SQLite, Entity Framework Core, and TMDB API. Authentication and authorization are handled using ASP.NET Core Identity and JWT.
 
 ## Getting Started
 
@@ -34,6 +34,10 @@ A simple backend API for managing favorite movies, built with .NET 8 Minimal API
     dotnet run
     ```
     - If you are using Visual Studio, build and run using HTTPS, e.g., `https://localhost:7219`.
+
+## Authentication and Authorization
+
+The application uses ASP.NET Core Identity for user management and JWT for securing API endpoints. Ensure you have configured the `Jwt` settings in `appsettings.json` correctly.
 
 ## CORS Configuration
 
