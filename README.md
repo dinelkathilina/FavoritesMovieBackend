@@ -1,7 +1,5 @@
 Favorites Movie Backend
-
-A simple backend API for managing favorite movies.
-
+A simple backend API for managing favorite movies, built with .NET 8 Minimal API, SQLite, Entity Framework Core, and TMDB API.
 Getting Started
 
 Clone the repository using the following command:
